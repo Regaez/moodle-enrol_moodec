@@ -50,15 +50,15 @@ $string['expirymessageenrolledbody'] = 'Dear {$a->user},
 This is a notification that your enrolment in the course \'{$a->course}\' is due to expire on {$a->timeend}.
 
 If you need help, please contact {$a->enroller}.';
-$string['moodec:config'] = 'Configure moodec enrol instances';
+$string['moodec:config'] = 'Configure Moodec enrol instances';
 $string['moodec:enrol'] = 'Enrol users';
 $string['moodec:manage'] = 'Manage user enrolments';
 $string['moodec:unenrol'] = 'Unenrol users from the course';
 $string['moodec:unenrolself'] = 'Unenrol self from the course';
-$string['messageprovider:expiry_notification'] = 'moodec enrolment expiry notifications';
-$string['pluginname'] = 'moodec enrolments';
-$string['pluginname_desc'] = 'The moodec enrolments plugin allows users to be enrolled moodecly via a link in the course administration settings, by a user with appropriate permissions such as a teacher. The plugin should normally be enabled, since certain other enrolment plugins, such as self enrolment, require it.';
-$string['status'] = 'Enable moodec enrolments';
+$string['messageprovider:expiry_notification'] = 'Moodec enrolment expiry notifications';
+$string['pluginname'] = 'Moodec enrolments';
+$string['pluginname_desc'] = 'The Moodec enrolments plugin allows users to be enrolled moodecly via a link in the course administration settings, by a user with appropriate permissions such as a teacher. The plugin should normally be enabled, since certain other enrolment plugins, such as self enrolment, require it.';
+$string['status'] = 'Enable Moodec enrolments';
 $string['status_desc'] = 'Allow course access of internally enrolled users. This should be kept enabled in most cases.';
 $string['status_help'] = 'This setting determines whether users can be enrolled moodecly, via a link in the course administration settings, by a user with appropriate permissions such as a teacher.';
 $string['statusenabled'] = 'Enabled';
@@ -69,5 +69,5 @@ $string['unenrolselfconfirm'] = 'Do you really want to unenrol yourself from cou
 $string['unenroluser'] = 'Do you really want to unenrol "{$a->user}" from course "{$a->course}"?';
 $string['unenrolusers'] = 'Unenrol users';
 $string['wscannotenrol'] = 'Plugin instance cannot moodecly enrol a user in the course id = {$a->courseid}';
-$string['wsnoinstance'] = 'moodec enrolment plugin instance doesn\'t exist or is disabled for the course (id = {$a->courseid})';
+$string['wsnoinstance'] = 'Moodec enrolment plugin instance doesn\'t exist or is disabled for the course (id = {$a->courseid})';
 $string['wsusercannotassign'] = 'You don\'t have the permission to assign this role ({$a->roleid}) to this user ({$a->userid}) in this course({$a->courseid}).';
